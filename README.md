@@ -12,10 +12,16 @@ Working code implementation of the Java version is based on: https://forum.ports
  2. **`cd add-custom-headers/CustomHeaders/Java`**
  3. Edit **BurpExtender.java** (using vim or a text editor of your choice) to reference the headers you want to add. By default, this is 'Header1: value1' and 'Header2: value2'
  4. Run **`./gradlew fatJar`** 
- 5. Load the JAR file (**build/libs/Add-Headers-Java.jar**) into Burp Suite Professional under **`Extender > Extensions > Add`** or Burp Suite Enterprise (**`Cog/Settings icon > Extensions > Custom extensions > Upload extension`**)
-
+ 5. Load the **Add-Headers-Java.jar** file created at **build/libs** into Burp Suite Professional under **`Extender > Extensions > Add`** or Burp Suite Enterprise under **`Cog/Settings icon > Extensions > Custom extensions > Upload extension`**
 # Python
  1. **`git clone https://github.com/UthmanPortSwigger/add-custom-headers.git`**
  2. **`cd add-custom-headers/CustomHeaders/Python`**
  3. Edit **Add-Headers-Python.py**
- 4. Load into Burp Suite Professional (**`Extender > Extensions > Add`**). Please ensure that you have Jython installed  
+ 4. Load into Burp Suite Professional under **`Extender > Extensions > Add`**. Please ensure that you have Jython installed  
+
+# Helpful resources: 
+
+- https://portswigger.net/blog/burp-extensions-added-to-burp-suite-enterprise-edition
+- https://portswigger.net/burp/documentation/desktop/tools/extender
+- https://portswigger.net/burp/extender
+- https://portswigger.net/burp/extender/writing-your-first-burp-suite-extension
