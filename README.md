@@ -9,7 +9,7 @@ Working code implementation of the Java version is based on: https://forum.ports
 
 # Java
  1. **`git clone https://github.com/UthmanPortSwigger/add-custom-headers.git`**
- 2. **`cd add-custom-headers/CustomHeaders/Java`**
+ 2. **`cd add-custom-headers/Custom-Headers/Java`**
  3. Edit **BurpExtender.java** using vim or a text editor of your choice. Change **urlMatchList** to match your scope, **headersToAdd** to match the headers you want to add, and set **checkForDuplicates** to true or false. In the example under Releases (v1.0), the scope is https://portswigger-labs.net and the headers added are "Header1: value1" and "Header2: Value2"
  4. Run **`./gradlew fatJar`** 
  5. Load the **Add-Headers-Java.jar** file created at **build/libs** into Burp Suite Professional under **`Extender > Extensions > Add`** or Burp Suite Enterprise under **`Cog/Settings icon > Extensions > Custom extensions > Upload extension`**
@@ -23,7 +23,7 @@ Working code implementation of the Java version is based on: https://forum.ports
 **General Note:** If you see a `permission denied: ./gradlew` error, please run `chmod +x gradlew` before the build command
 # Python
  1. **`git clone https://github.com/UthmanPortSwigger/add-custom-headers.git`**
- 2. **`cd add-custom-headers/CustomHeaders/Python`**
+ 2. **`cd add-custom-headers/Custom-Headers/Python`**
  3. Edit **Add-Headers-Python.py**
  4. Load into Burp Suite Professional under **`Extender > Extensions > Add`**. Please ensure that you have Jython installed  
 
