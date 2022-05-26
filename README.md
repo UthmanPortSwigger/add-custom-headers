@@ -35,4 +35,4 @@ Working code implementation of the Java version is based on: https://forum.ports
 - https://portswigger.net/burp/extender/writing-your-first-burp-suite-extension
 
 # Contributors: 
-:octopus:	[@HannahLaw-PortSwigger](https://github.com/HannahLaw-Portswigger) :octopus:	
+:octopus:	[@HannahLaw-PortSwigger](https://github.com/Hannah-Portswigger) :octopus:
